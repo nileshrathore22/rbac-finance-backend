@@ -4,7 +4,7 @@ A Spring Boot backend application for Finance Data Processing and Access Control
 
 ## Tech Stack
 - **Language**: Java 17
-- **Framework**: Spring Boot 3.x
+- **Framework**: Spring Boot 3.2.4
 - **Database**: PostgreSQL
 - **ORM**: Spring Data JPA / Hibernate
 - **Security**: Spring Security + JWT
