@@ -51,3 +51,8 @@ Once the application is running, navigate to the local Swagger UI to test the en
 - Global Exception Handling
 - API Documentation using Swagger
 - Soft-Delete pattern for Financial Records
+
+## Demonstration
+As proof of functionality covering all assignment requirements (Authentication, RBAC, Record CRUD, and Aggregation logic), please see the automated end-to-end API demonstration below:
+
+<img src="./screenshots/api_demo_recording.webp" alt="API Demonstration" width="800"/>
