@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">RBAC Finance Backend API 💰</h1>
-  <h3>Zorvyn Company Backend Assessment</h3>
+  <h3>Zorvyn Fintech Backend Assessment</h3>
   
   <p>
     <a href="https://github.com/nilesrathore22/rbac-finance-backend"><img src="https://img.shields.io/badge/Java-17-orange.svg" alt="Java Version"></a>
