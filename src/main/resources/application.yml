@@ -3,9 +3,9 @@ spring:
     name: finance-backend
     
   datasource:
-    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:finance_db}
-    username: ${DB_USER:postgres}
-    password: ${DB_PASSWORD:adminpassword}
+    url: jdbc:postgresql://${PGHOST:localhost}:${PGPORT:5432}/${PGDATABASE:finance_db}
+    username: ${PGUSER:postgres}
+    password: ${PGPASSWORD:adminpassword}
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -22,4 +22,4 @@ jwt:
   expirationMs: 86400000 # 24 hours
 
 server:
-  port: 8080
+  port: ${PORT:8080}
