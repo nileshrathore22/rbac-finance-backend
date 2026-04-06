@@ -4,7 +4,7 @@
   
   <p>
     <a href="https://github.com/nilesrathore22/rbac-finance-backend"><img src="https://img.shields.io/badge/Java-17-orange.svg" alt="Java Version"></a>
-    <a href="https://github.com/nilesrathore22/rbac-finance-backend"><img src="https://img.shields.io/badge/Spring_Boot-3.x-brightgreen.svg" alt="Spring Version"></a>
+    <a href="https://github.com/nilesrathore22/rbac-finance-backend"><img src="https://img.shields.io/badge/Spring_Boot-3.2.4-brightgreen.svg" alt="Spring Version"></a>
     <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
     <br>
     <br>
@@ -12,16 +12,61 @@
   </p>
   
   <h4>✨ <a href="https://rbac-finance-backend-production.up.railway.app">Live Working URL (Swagger UI Environment)</a> ✨</h4>
-
-  <br />
 </div>
 
-## ⚙️ Languages and Tools
+<br/>
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,postgres,hibernate,maven,docker,aws" alt="Tech Stack Line 1" />
-  </a>
+
+## 🛠️ Languages and Tools
+
+<table>
+  <tr>
+    <td align="center" width="110">
+      <br>
+      <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
+      <br>Java
+    </td>
+    <td align="center" width="110">
+      <br>
+      <img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring Boot" />
+      <br>Spring Boot
+    </td>
+    <td align="center" width="110">
+      <br>
+      <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
+      <br>PostgreSQL
+    </td>
+    <td align="center" width="110">
+      <br>
+      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+      <br>Docker
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="110">
+      <br>
+      <img src="https://skillicons.dev/icons?i=hibernate" width="48" height="48" alt="Hibernate" />
+      <br>Hibernate
+    </td>
+    <td align="center" width="110">
+      <br>
+      <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="REST API" />
+      <br>REST API
+    </td>
+    <td align="center" width="110">
+      <br>
+      <img src="https://skillicons.dev/icons?i=maven" width="48" height="48" alt="Maven" />
+      <br>Maven
+    </td>
+    <td align="center" width="110">
+      <br>
+      <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
+      <br>GitHub
+    </td>
+  </tr>
+</table>
+
 </div>
 
 ---
@@ -36,6 +81,25 @@ This implementation addresses and successfully meets every requested constraint:
 3. **Advanced Dashboard Aggregation:** Complex SQL group-by analytics exposed via endpoints for quick insights (e.g., total expenses vs. income).
 4. **JWT Security Architecture:** Completely stateless session management through rigorously filtered JSON Web Tokens.
 5. **OpenAPI Specifications:** Automated documentation (Swagger UI) that supports global header injection out of the box.
+
+---
+
+## 🏗️ Project Structure
+To maintain a scalable, enterprise-grade codebase, the application strictly adheres to the layered MVC architecture:
+
+```text
+src/main/java/com/rbac/finance/
+├── config/              # Security configurations and Swagger/OpenAPI setup
+├── controller/          # RESTful endpoints handling client JSON requests
+├── dto/                 # Data Transfer Objects for clean API request/response contracts
+├── exception/           # Global Exception Handling definitions and standard responses
+├── model/               # JPA Entities perfectly mapped to PostgreSQL tables
+├── repository/          # Spring Data JPA interfaces for database operations
+├── security/            # JWT filters, unauthorized handlers, and user details logic
+└── service/             # Complex business logic and pure financial aggregations
+```
+
+---
 
 ## 🚀 Live API Exploration
 The application has been successfully containerized and globally deployed.
