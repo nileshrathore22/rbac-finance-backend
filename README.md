@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">RBAC Finance Backend API 💰</h1>
-  <h3>Zorvyn Fintech Backend Assessment</h3>
+  <h3> Backend Assessment</h3>
   
   <p>
     <a href="https://github.com/nilesrathore22/rbac-finance-backend"><img src="https://img.shields.io/badge/Java-17-orange.svg" alt="Java Version"></a>
@@ -74,7 +74,7 @@
 ## 📌 Project Overview
 The **RBAC Finance Backend** is a fully functional, highly secure financial data processing system designed per the requirements of the **Zorvyn Company** assignment. It establishes a multi-tier authentication structure that validates JWTs and scales securely.
 
-### 🏢 How it Matches the Zorvyn Assignment
+### 🏢 How it Matches the Assignment
 This implementation addresses and successfully meets every requested constraint:
 1. **Role-Based Access Control (RBAC):** Three strictly segregated tiers (`VIEWER`, `ANALYST`, `ADMIN`). Analysts cannot create users, and Viewers cannot alter records.
 2. **Finance Processing Core:** Complete RESTful endpoints to manage financial ledger data, including creation, logical deletion, and retrieval.
